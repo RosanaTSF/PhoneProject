@@ -9,9 +9,8 @@ namespace PhonePooProject
     {
         static void Main()
         {
-            Flip f = new Flip("123456789", "ModelFlip", "IMEIFlip", 512);
-            f.InstalarAplicativo("AppFlip");
-
+            Flip f = new Flip("123456789", "ModelFlip", "IMEIFlip", 512); //Criação de uma instância (objeto).
+            f.InstalarAplicativo("AppFlip"); //Chamando o método(). 
             Iphone i = new Iphone("111222333", "ModelIphone", "IMEIIphone", 1024);
             i.InstalarAplicativo("AppIphone");
 
